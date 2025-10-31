@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&family=Lora:ital@0;1&display=swap');
+body{ font-family: "Coustard", serif; font-weight: 400!important; font-style: normal; }
+html { font-size: 16px; text-align: center; }
+body { font-size: 1rem; }
+
+h1 { font-size: 4.5rem; margin: 0; font-weight: 400;} /* 40px */
+h2 { font-size: 2rem; margin: 0; font-weight: 400;}   /* 32px */
+h3 { font-size: 1.5rem; margin: 0; font-weight: 400;} /* 24px */
+p  { font-size: 1rem; font-weight: 400;}   /* 16px */
+.small{font-size: .875rem;}
+
+.lora {
+      font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{color: #444; line-height: 1.6;}
+h1, h2, h3, a{color:#333; text-decoration: none;}
+a:hover{color:#000;}
+
+/*HEADER*/
+#site-header{padding: 2.5em 0 1.875em;}
+#site-title a{border-bottom: 1px dotted #ccc;}
+#site-description { margin: 1rem;}
+/*NAV*/
+#site-nav{ border-style: solid; border-width: 1px 0; border-color: #eee; padding: 1rem 0; margin-bottom: 3rem; }
+.nav-link{ display: inline-block; margin: 0 1.25em; border-bottom: 1px solid transparent; }
+.nav-link:hover{ border-bottom: 1px dotted #ccc; }
+/*MAIN*/
+/*ARTICLE*/
+article{margin: 0 auto 2.5rem auto; width: 75%; }
+.post-link:hover{color: #000; background-color: #f7f7f7;}
+.post-content{font-family: lora; text-align: left; color: #555; }
+.post-date{font-family: lora; padding: .6em 0 1.2em 0; color: #aaa; letter-spacing: 1px; }
+.post-date a{ border-bottom: 1px dotted #ccc;}
+.post-date a:hover{color: #000;
+    background-color: #f7f7f7;}
+.more-link
+{display: block; max-width: 18.75em; text-align: center; margin: 1.5rem auto 0 auto; padding: 0.5rem 0; border-bottom: 1px dotted #ccc; letter-spacing: 2px;}
+.more-link:hover{color: #000; background-color: #f7f7f7;}
+
+/* */
+/*FOOTER*/
+#site-footer{padding:1.5rem 0; margin-top: 1.5rem; border-top: 1px solid #eee;}
+

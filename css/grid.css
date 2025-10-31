@@ -1,0 +1,30 @@
+html, body {margin: 0; padding: 0;}
+body{box-sizing: border-box;}
+html{ height: 100%; }
+
+body{ display: flex; flex-direction: column; height: 100%; }
+#site-main{ flex: 1 0 auto; }
+#site-footer{ flex: 0 0 auto; }
+
+
+.wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .wrapper {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .wrapper {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 1170px;
+  }
+}
