@@ -27,6 +27,7 @@ a:hover{color:#000;}
 #site-nav{ border-style: solid; border-width: 1px 0; border-color: #eee; padding: 1rem 0; margin-bottom: 3rem; }
 .nav-link{ display: inline-block; margin: 0 1.25em; border-bottom: 1px solid transparent; }
 .nav-link:hover{ border-bottom: 1px dotted #ccc; }
+#active{color: #cc3300;}
 /*MAIN*/
 /*ARTICLE*/
 article{margin: 0 auto 2.5rem auto; width: 75%; }
@@ -34,8 +35,7 @@ article{margin: 0 auto 2.5rem auto; width: 75%; }
 .post-content{font-family: lora; text-align: left; color: #555; }
 .post-date{font-family: lora; padding: .6em 0 1.2em 0; color: #aaa; letter-spacing: 1px; }
 .post-date a{ border-bottom: 1px dotted #ccc;}
-.post-date a:hover{color: #000;
-    background-color: #f7f7f7;}
+.post-date a:hover{color: #000; background-color: #f7f7f7;}
 .more-link
 {display: block; max-width: 18.75em; text-align: center; margin: 1.5rem auto 0 auto; padding: 0.5rem 0; border-bottom: 1px dotted #ccc; letter-spacing: 2px;}
 .more-link:hover{color: #000; background-color: #f7f7f7;}
@@ -44,3 +44,22 @@ article{margin: 0 auto 2.5rem auto; width: 75%; }
 /*FOOTER*/
 #site-footer{padding:1.5rem 0; margin-top: 1.5rem; border-top: 1px solid #eee;}
 
+
+/*ABOUT ME*/
+#about-me{ margin:0 auto; width: 75%; text-align: left; font-family: "Lora", serif; font-style: italic;}
+#about-me p{margin: 0;}
+#page-title{font-family: "Coustard", serif; font-weight: 400!important; font-style: normal; text-align: center;}
+.about-link{ border-bottom: 2px dotted #333; color: #333;}
+.about-link:hover{color: #000; background-color: #f7f7f7;}
+/*CONTACT*/
+form{width: 262px; margin: 0 auto; font-family: "Lora", serif; font-weight: 400;}
+.form-field {display: flex; flex-direction: column; align-items: flex-start; width: 100%; margin: 1rem 0;}
+textarea, input {width: 100%;}
+textarea, input {padding: .7em; width: 262px; max-width: 100%; font-size: .9em; color: #444; border: 1px solid #ddd; border-radius: 0;}
+input:focus, textarea:focus{border-color: #aaa; outline: 0;}
+label { font-size: 0.9em;}
+textarea {min-height: 10rem;}
+button{padding: .8em 2em .7em; font-size: .9em; line-height: 1.2; border: 0; outline: 0; color: #fff; text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+background: #333;}
+button:hover{color: #fff; background: #2a2a2a;}
+.contact-deskription{font-size: 14px; color: #999;  font-family: "Lora", serif; font-weight: 400;}
